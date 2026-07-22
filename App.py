@@ -1,4 +1,3 @@
-```python
 import ccxt
 import pandas as pd
 import ta
@@ -23,5 +22,3 @@ st.write(f"Time: {latest['timestamp']}")
 st.write(f"Close Price: {latest['close']}")
 st.write(f"RSI: {latest['rsi']:.2f}")
 st.write(f"Signal: {signal}")
-
-```
